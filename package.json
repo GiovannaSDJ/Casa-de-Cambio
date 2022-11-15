@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/Pires19/exercise-casa-de-cambio#readme",
   "dependencies": {
+    "sweetalert2": "^11.6.8",
     "vite": "^3.2.3"
   },
   "devDependencies": {
