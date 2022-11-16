@@ -1,5 +1,6 @@
 import './style.css';
 import Swal from 'sweetalert2';
+import coin from './assets/coin.svg';
 
 
 const input = document.getElementsByTagName('input');
@@ -16,7 +17,7 @@ function valores(moedas) {
             rates.forEach(coins => {
                 const [name, value] = coins;
                 const div = document.createElement('div');
-                div.innerHTML = `<p class="nome"><img src="./assets/coin.svg">${name}</p><p class="valor">${value.toFixed(3)}</p`;
+                div.innerHTML = `<p class="nome"><img src="${coin}">${name}</p><p class="valor">${value.toFixed(3)}</p`;
                 div.className = 'div';
                 divs.appendChild(div);
             });
